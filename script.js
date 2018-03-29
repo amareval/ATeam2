@@ -5,16 +5,7 @@ $(document).ready(function() {
 
         event.preventDefault();
     
-        // STORE USER INPUT DATA INTO VARIABLES
-        var keywordValue = $('#keywords').val();
-        var articleAmount = $('#article-amount').val();
-        var startingYearValue = $('#start-year').val();
-        var endingYearValue = $('#ending-year').val();
-
-        var keyword = false;
-        var quantity = false;
-        var start = false;
-        var end = false;
+        
 
     
         var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
